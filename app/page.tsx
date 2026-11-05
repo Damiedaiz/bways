@@ -126,7 +126,7 @@ export default function HomePage() {
               </a>
             </div>
             <div className="soft-shadow grid overflow-hidden rounded-[2rem] bg-[#fffdf8] sm:grid-cols-[1fr_1fr]">
-              <div className="min-h-[280px] bg-[url('https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=80')] bg-cover bg-center sm:min-h-[390px]" role="img" aria-label="A calm, warmly furnished hotel room" />
+              <div className="min-h-[280px] bg-[url('https://d2ol7oe51mr4n9.cloudfront.net/user_3JwdzM2Nj1sXMrckfJ0E7wqtX7A/bf8b4b45-1a0f-4b51-9f36-dcc894f14e28.heic')] bg-cover bg-center sm:min-h-[390px]" role="img" aria-label="A calm, warmly furnished hotel room" />
               <div className="flex flex-col justify-center p-8 sm:p-10 lg:p-12">
                 <p className="eyebrow text-[9px] font-semibold text-[#9a744d]">STRAIGHTFORWARD PRICING</p>
                 <p className="display-font mt-5 text-5xl tracking-[-.05em] text-[#4a3022]">₦8k–₦15k</p>
@@ -168,7 +168,7 @@ export default function HomePage() {
                 <p className="mt-4 max-w-md text-sm leading-7 text-white/80">Take a moment for reading, focused work or simply relaxing away from the rush of the day.</p>
               </article>
             </div>
-            <p className="mt-5 text-[10px] leading-5 text-white/40">Atmosphere imagery is illustrative. Please contact the hotel to confirm facilities and available spaces.</p>
+            <p className="mt-5 text-[10px] leading-5 text-white/40">Room photography supplied by B-Ways Hotel. Contact the team to confirm facilities and available spaces.</p>
           </div>
         </section>
 
