@@ -13,7 +13,12 @@ const hotelSchema = {
   description:
     "B-Ways Hotel offers welcoming, affordable hospitality in Ibadan, Nigeria, with room rates ranging from ₦8,000 to ₦15,000. Guests can contact the hotel directly to enquire about room options and availability.",
   priceRange: "₦8,000–₦15,000 per night",
-  telephone: bookingNumbers.map((item) => item.number),
+  telephone: bookingNumbers[0].number,
+  contactPoint: bookingNumbers.map((item) => ({
+    "@type": "ContactPoint",
+    telephone: item.number,
+    contactType: item.label
+  })),
   address: {
     "@type": "PostalAddress",
     addressLocality: "Ibadan",
@@ -25,15 +30,8 @@ const hotelSchema = {
       "@type": "LocationFeatureSpecification",
       name: "Bar",
       value: true
-    },
-    {
-      "@type": "LocationFeatureSpecification",
-      name: "Relaxation space",
-      value: true
     }
-  ],
-  availableLanguage: ["English"],
-  isAccessibleForFree: false
+  ]
 };
 
 function ArrowUpRight() {
